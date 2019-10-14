@@ -1,6 +1,6 @@
 ---
   - name: Playbook for configuring nagios client(s)
-    hosts: all
+    hosts: nagios-client
     remote_user: root
     
     vars:
